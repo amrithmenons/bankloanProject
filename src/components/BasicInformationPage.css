@@ -1,0 +1,29 @@
+.basicinfo{
+    width: 250px;
+    background-color: #f05737;
+    padding: 20px;
+    color: white;
+    height:800px;
+}
+.contentcontaininformation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:700px;
+  margin-left:300px;
+  margin-top:-750px;
+}
+.right-sidebarbasicinfo{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  height:100%;
+  color: #f05737;
+  font-weight: 200;
+}

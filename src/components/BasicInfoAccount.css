@@ -1,0 +1,78 @@
+.apply-now-page {
+  display: flex;
+}
+
+.apply-now-sidebar, .apply-now-right-sidebar {
+  background-color: #ff5722;
+  padding: 20px;
+  width: 250px;
+  color: white;
+  height: 729px; /* Rounded for consistency */
+}
+
+.apply-now-sidebar-header, .apply-now-sidebar-content {
+  margin-bottom: 40px;
+}
+
+.apply-now-logo, .apply-now-bank-logo {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.apply-now-main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.apply-now-customer-status, .apply-now-account-details {
+  margin-bottom: 20px;
+}
+
+.apply-now-customer-text {
+  margin-bottom: 10px;
+}
+
+.apply-now-status-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.apply-now-status-button {
+  flex-grow: 1;
+}
+
+.apply-now-account-details-container {
+  max-width: 900px;
+}
+
+.apply-now-text-field, .apply-now-select-field {
+  margin-bottom: 20px;
+}
+
+.apply-now-submit-button {
+  margin-top: 20px;
+}
+
+.apply-now-sidebar-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.apply-now-sidebar-item {
+  margin-bottom: 10px;
+}
+
+/* Additional CSS adjustments */
+.main-contentcontain {
+  margin-left: -150px; /* Adjust this value if it causes layout issues */
+}
+
+.account-details {
+  width: 900px;
+}
+
+/* Ensure correct application of styles for the Container element */
+.apply-now-main-content Container {
+  margin-left: -150px;
+}
+
