@@ -5,7 +5,7 @@
 
 #applyNowSidebar {
   width: 250px;
-  background-color: #37f0e7;
+  background-color: #f05737;
   padding: 20px;
   color: white;
 }
@@ -90,7 +90,7 @@
 
 #applyNowSidebarList .applyNowSidebarItem {
   margin-bottom: 10px;
-  color: #37a9f0;
+  color: #f05737;
   cursor: pointer;
   font-weight: 700;
 }
