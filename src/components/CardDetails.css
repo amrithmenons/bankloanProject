@@ -43,7 +43,7 @@ h1{
 
 .cardiApplyOnlinebutton {
   padding: 10px 15px; /* Slightly smaller padding */
-  background-color: #ff6600;
+  background-color: #00ffd9;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -51,7 +51,7 @@ h1{
 }
 
 .cardiApplyOnlinebutton:hover {
-  background-color: #e65c00;
+  background-color: #00e6d3;
 }
 
 .Assistancemaincontainer {
@@ -139,13 +139,13 @@ h1{
 .Assistancephonenumcontent.numbers p:nth-child(4) {
   font-size: 18px;
   font-weight: bold;
-  color: #e94e1b;
+  color: #1be9e6;
 }
 
 .Assistancephonenumcontent.tollfree p:nth-child(5) {
   font-size: 18px;
   font-weight: bold;
-  color: #e94e1b;
+  color: #1be9c3;
 }
 
 .Assistancephonenumcontent.asist p:nth-child(2),

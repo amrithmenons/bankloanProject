@@ -137,6 +137,14 @@ const Header = () => {
           <a href="#">Contact Us</a>
           <a href="#">View All Other Services</a>
         </Dropdown>
+        <Dropdown title="My Status" className="Status">
+           <button className='' onClick={handleLogout}>My loans</button>
+           <button className=''onClick={handleLogout}>My Savings</button>
+        </Dropdown>
+        <Dropdown title="Notifications" className="Notifications">
+           <button className='' onClick={handleLogout}>My loans</button>
+           <button className=''onClick={handleLogout}>My Savings</button>
+        </Dropdown>
         <button className="logout-btn" onClick={handleLogout}>Logout</button>
       </div>
     </div>

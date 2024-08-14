@@ -1,78 +1,102 @@
-.apply-now-page {
+#basicInfoAccountPage {
   display: flex;
+  min-height: 100vh;
 }
 
-.apply-now-sidebar, .apply-now-right-sidebar {
-  background-color: #ff5722;
-  padding: 20px;
+#basicInfoAccountSidebar {
   width: 250px;
+  background-color: #37f0d1;
+  padding: 20px;
   color: white;
-  height: 729px; /* Rounded for consistency */
 }
 
-.apply-now-sidebar-header, .apply-now-sidebar-content {
+#basicInfoAccountSidebarHeader {
+  text-align: center;
   margin-bottom: 40px;
 }
 
-.apply-now-logo, .apply-now-bank-logo {
-  max-width: 100%;
-  margin-bottom: 20px;
+#basicInfoAccountLogo {
+  width: 50px;
+  height: 50px;
 }
 
-.apply-now-main-content {
-  flex-grow: 1;
-  padding: 20px;
-}
-
-.apply-now-customer-status, .apply-now-account-details {
-  margin-bottom: 20px;
-}
-
-.apply-now-customer-text {
-  margin-bottom: 10px;
-}
-
-.apply-now-status-buttons {
-  display: flex;
-  gap: 10px;
-}
-
-.apply-now-status-button {
-  flex-grow: 1;
-}
-
-.apply-now-account-details-container {
-  max-width: 900px;
-}
-
-.apply-now-text-field, .apply-now-select-field {
-  margin-bottom: 20px;
-}
-
-.apply-now-submit-button {
+#basicInfoAccountSidebarContent {
+  text-align: center;
   margin-top: 20px;
 }
 
-.apply-now-sidebar-list {
-  list-style-type: none;
+#basicInfoAccountMainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#basicInfoAccountContainer {
+  max-width: 1000px;
+}
+
+#basicInfoAccountDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#basicInfoAccountDetailsInnerContainer {
+  width: 100%;
+}
+
+#basicInfoAccountDetailsTitle {
+  margin-bottom: 20px;
+}
+
+#basicInfoAccountForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#basicInfoAccountNumber,
+#basicInfoLoanAmount,
+#basicInfoLoanRequestedFor {
+  margin-bottom: 20px;
+}
+
+#basicInfoSubmitButton {
+  margin-top: 20px;
+}
+
+#basicInfoAccountRightSidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+#basicInfoAccountRightSidebarLogo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#basicInfoAccountSidebarList {
+  list-style: none;
   padding: 0;
+  padding-top: 50px;
 }
 
-.apply-now-sidebar-item {
+#basicInfoAccountSidebarList .apply-now-sidebar-item {
   margin-bottom: 10px;
+  color: #37f0c5;
+  cursor: pointer;
+  font-weight: 700;
 }
 
-/* Additional CSS adjustments */
-.main-contentcontain {
-  margin-left: -150px; /* Adjust this value if it causes layout issues */
+#basicInfoAccountSidebarList .apply-now-sidebar-item:hover {
+  text-decoration: underline;
 }
-
-.account-details {
-  width: 900px;
-}
-
-/* Ensure correct application of styles for the Container element */
-.apply-now-main-content Container {
-  margin-left: -150px;
-}
-

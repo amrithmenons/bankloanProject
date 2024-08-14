@@ -4,6 +4,7 @@ html, body {
   height: 100%; /* Ensure the body takes up the full height */
   margin: 0;
   font-family: Arial, sans-serif; /* Optional: Add a font-family for consistency */
+  align-items: center;
 }
 
 .container {
