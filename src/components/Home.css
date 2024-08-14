@@ -239,7 +239,7 @@ button:active {
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #00eeff; 
+  background-color: #ff6600; 
 }
 
 .carousel-control-prev-icon,
@@ -258,7 +258,7 @@ button:active {
   padding: 10px 0;
   animation: marquee 10s linear infinite;
   font-size: 1rem;
-  color: #00d9ff;
+  color: #ff6600;
   position: relative;
   margin-top:10px;
   margin-left: 120px;
@@ -293,7 +293,7 @@ button:active {
 .logout-btn {
   width: 70px;
   background-color: #ffffff;
-  color: #00ffea;
+  color: #ff6f00;
   display: flex;
   align-items: center;
 }
